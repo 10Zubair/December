@@ -1,5 +1,8 @@
-<h1>New University</h1>
+<div class="container">
+<div class="card shadow">
+<h1 class="text text-primary">New University</h1>
+<div class="card-header"><%= render 'form', university: @university %></div>
 
-<%= render 'form', university: @university %>
-
-<%= link_to 'Back', universities_path %>
+<div class="card-body"><%= link_to 'Back', universities_path %></div>
+</div>
+</div>

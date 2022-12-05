@@ -3,6 +3,7 @@ class UniversitiesController < ApplicationController
 
   # GET /universities or /universities.json
   def index
+    @num = 1
     @universities = University.all
   end
 
