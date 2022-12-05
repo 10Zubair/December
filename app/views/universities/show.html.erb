@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @university.name %>
+</p>
+
+<p>
+  <strong>Faculty members:</strong>
+  <%= @university.faculty_members %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @university.city %>
+</p>
+
+<p>
+  <strong>Total students:</strong>
+  <%= @university.total_students %>
+</p>
+
+<%= link_to 'Edit', edit_university_path(@university) %> |
+<%= link_to 'Back', universities_path %>
